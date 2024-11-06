@@ -1,0 +1,5 @@
+{
+    "module": "resources-core/services/menus/help.js",
+    "extensionPoint": "codbex-plutus-menu",
+    "description": "Help Menu"
+}
