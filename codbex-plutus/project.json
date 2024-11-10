@@ -2,21 +2,27 @@
 	"guid": "codbex-plutus",
 	"dependencies": [
 		{
-			"guid": "codbex-account",
+			"guid": "codbex-products",
 			"type": "git",
-			"url": "https://github.com/codbex/codbex-accounts.git",
+			"url": "https://github.com/codbex/codbex-products",
 			"branch": "main"
 		},
 		{
 			"guid": "codbex-invoices",
 			"type": "git",
-			"url": "https://github.com/codbex/codbex-invoices.git",
+			"url": "https://github.com/codbex/codbex-invoices",
 			"branch": "main"
 		},
 		{
-			"guid": "codbex-payments",
+			"guid": "codbex-orders",
 			"type": "git",
-			"url": "https://github.com/codbex/codbex-payments.git",
+			"url": "https://github.com/codbex/codbex-orders",
+			"branch": "main"
+		},
+		{
+			"guid": "codbex-inventory",
+			"type": "git",
+			"url": "https://github.com/codbex/codbex-inventory",
 			"branch": "main"
 		}
 	],
