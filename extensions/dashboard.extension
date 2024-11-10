@@ -1,5 +1,5 @@
 {
-    "module": "codbex-plutus-dashboard/services/dashboard.js",
+    "module": "codbex-plutus/services/dashboard.js",
     "extensionPoint": "ide-view",
     "description": "Dashboard View"
 }

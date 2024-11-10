@@ -60,7 +60,7 @@ navigation.controller("LaunchpadViewController", ["$scope", "messageHub", "$http
             "label": "Configurations", "expanded": "configurationsExpanded", "icon": "wrench"
         }
     ]
-    $http.get("/services/ts/codbex-plutus-dashboard/api/NavigationExtension/NavigationService.ts")
+    $http.get("/services/ts/codbex-athena/api/NavigationExtension/NavigationService.ts")
         .then(function (response) {
             $scope.navigationList = response.data;
 

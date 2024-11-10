@@ -11,7 +11,7 @@ dashboard.controller('DashboardController', ['$scope', '$http', 'messageHub', fu
         busyText: "Loading...",
     };
 
-    $http.get("/services/js/codbex-plutus-dashboard/api/WidgetsExtension/WidgetService.js")
+    $http.get("/services/js/codbex-athena/api/WidgetsExtension/WidgetService.js")
         .then(function (response) {
             $scope.widgetList = response.data;
 

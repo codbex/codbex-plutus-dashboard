@@ -1,13 +1,13 @@
 const perspectiveData = {
-    id: "codbex-plutus-launchpad",
-    name: "plutus",
-    link: "../codbex-plutus-dashboard/index.html",
-    order: "0",
-    icon: "../codbex-plutus-dashboard/images/navigation.svg",
+	id: 'codbex-plutus-launchpad',
+	name: 'Plutus',
+	link: '../codbex-plutus/index.html',
+	order: '0',
+	icon: '../codbex-plutus/images/navigation.svg',
 };
 
 if (typeof exports !== 'undefined') {
-    exports.getPerspective = function () {
-        return perspectiveData;
-    }
+	exports.getPerspective = function () {
+		return perspectiveData;
+	};
 }
