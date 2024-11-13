@@ -44,6 +44,7 @@ navigation.controller('LaunchpadViewController', [
 		$scope.groupItems['employees'] = [];
 		$scope.groupItems['partners'] = [];
 		$scope.groupItems['configurations'] = [];
+		$scope.groupItems['assets'] = [];
 
 		$scope.groups = [
 			{
@@ -85,6 +86,11 @@ navigation.controller('LaunchpadViewController', [
 				label: 'Configurations',
 				expanded: 'configurationsExpanded',
 				icon: 'wrench',
+			},
+			{
+				label: 'Assets',
+				expanded: 'assetsExpanded',
+				icon: 'file',
 			},
 		];
 		$http
