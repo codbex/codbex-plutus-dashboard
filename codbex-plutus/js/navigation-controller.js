@@ -36,6 +36,7 @@ navigation.controller('LaunchpadViewController', [
 		);
 
 		$scope.groupItems = [];
+		$scope.groupItems['assets'] = [];
 		$scope.groupItems['purchasing'] = [];
 		$scope.groupItems['sales'] = [];
 		$scope.groupItems['inventory'] = [];
@@ -44,9 +45,13 @@ navigation.controller('LaunchpadViewController', [
 		$scope.groupItems['employees'] = [];
 		$scope.groupItems['partners'] = [];
 		$scope.groupItems['configurations'] = [];
-		$scope.groupItems['assets'] = [];
 
 		$scope.groups = [
+			{
+				label: 'Assets',
+				expanded: 'assetsExpanded',
+				icon: 'it-host',
+			},
 			{
 				label: 'Purchasing',
 				expanded: 'purchasingExpanded',
@@ -86,12 +91,7 @@ navigation.controller('LaunchpadViewController', [
 				label: 'Configurations',
 				expanded: 'configurationsExpanded',
 				icon: 'wrench',
-			},
-			{
-				label: 'Assets',
-				expanded: 'assetsExpanded',
-				icon: 'file',
-			},
+			}
 		];
 		$http
 			.get(
